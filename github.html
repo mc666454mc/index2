@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目总导航中心</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", system-ui, sans-serif;
+        }
+        body {
+            background-color: #0f121c;
+            color: #e6edf7;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #62e0a3;
+            font-size: 36px;
+            margin-bottom: 12px;
+        }
+        .desc {
+            color: #a0a9bf;
+            margin-bottom: 60px;
+            font-size: 17px;
+        }
+        .nav-card {
+            background: #1a2033;
+            border-radius: 16px;
+            padding: 35px;
+            margin-bottom: 24px;
+            text-align: left;
+        }
+        .nav-card h2 {
+            color: #86e2b0;
+            margin-bottom: 14px;
+            font-size: 22px;
+        }
+        .warning-title {
+            color: #ff5c5c;
+            font-size: 32px;
+            margin-bottom: 16px;
+        }
+        .nav-card p {
+            color: #b4bcd0;
+            margin-bottom: 22px;
+            line-height: 1.7;
+        }
+        .jump-btn {
+            display: inline-block;
+            padding: 13px 28px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: 0.2s ease;
+            margin-right:15px;
+        }
+        .github-btn {
+            background-color: #238636;
+            color: #fff;
+        }
+        .github-btn:hover {
+            background-color: #2ea043;
+        }
+        .cf-btn {
+            background-color: #f38020;
+            color: #fff;
+        }
+        .cf-btn:hover {
+            background-color: #ff8a2f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>项目总导航中心</h1>
+        <p class="desc">C Plus MC 我的世界整合包全套项目统一入口</p >
+
+        <div class="nav-card">
+            <h2>主站点 - GitHub Pages</h2>
+            <p>官方主访问地址，内含B站主页跳转、NAS私有资源下载入口。</p >
+            <a class="jump-btn github-btn" href="https://mc666454mc.github.io/index/" target="_blank">进入主站点</a >
+        </div>
+
+        <div class="nav-card">
+            <h1 class="warning-title">不建议</h1>
+            <h2>备用站点 - Cloudflare Pages</h2>
+            <p>此节点运行不稳定，随时有可能崩溃，不推荐日常访问使用。</p >
+            <a class="jump-btn cf-btn" href="https://cloudflarepages-cw4.pages.dev/" target="_blank">进入备用站点</a >
+        </div>
+    </div>
+</body>
+</html>
